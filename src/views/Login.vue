@@ -168,7 +168,7 @@ export default {
       this.errorMessage = "";
 
       setTimeout(() => {
-        if (this.form.email === "cris@cris.com" && this.form.password === "1234") {
+        if (this.form.email === "cris@cris.com" && this.form.password === "123456") {
           this.successMessage = "Inicio de sesión exitoso 🎉";
           // Redirigir automáticamente
           this.$router.push("/pokemon");
